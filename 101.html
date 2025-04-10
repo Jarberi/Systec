@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <title>Primero</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="Free HTML Templates" name="keywords">
+    <meta content="Free HTML Templates" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Handlee&family=Nunito&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+
+    <!-- Flaticon Font -->
+    <link href="lib/flaticon/font/flaticon.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+    <!--Edicion de menu para repetir-->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <!--hasta aca Edicion de menu para repetir -->
+</head>
+
+<body>
+    <!-- Navbar Start -->
+   <!--Edicion de menu -->
+   <div id="contenido-menu"></div>
+    
+   <script>
+       $(document).ready(function() {
+           $("#contenido-menu").load("menu.html");
+       });
+   </script>
+   <!--hasta aca Edicion de menu -->
+    <!-- Navbar End -->
+
+
+    <!-- Header Start -->
+    <div class="container-fluid mb-1" style="background-image: url('img/fondo3.jpg'); background-size: 1800px 2500px; background-repeat: no-repeat;">
+        
+    
+    <!-- Header End -->
+<!-- Blog Start -->
+<div class="container-fluid pt-5">
+    <div class="container">
+        <div class="text-center pb-2">
+            <p class="section-title px-5"><span class="px-2">Actividades</span></p>
+            <h1 class="mb-4">Welcome students</h1>
+         <!-- bloque-->
+         
+      <div class="card border-5 shadow-sm mb-8">  
+                        
+        <div class="card-body bg-light text-center p-4">
+
+        
+            <h2><p>Bimestral: </p></h2>
+             <!-- Fecha inicio -->
+         
+          <h4><font color="red"> <p id="fecha"></p> </font></h4>
+          <script>
+            const fechaElement = document.getElementById('fecha');
+            const fechaActual = new Date();
+          
+            const opciones = {
+              weekday: 'long', // Agrega el día de la semana completo
+              year: 'numeric',
+              month: 'long',
+              day: 'numeric'
+            };
+          
+            const fechaFormateada = fechaActual.toLocaleDateString('en-EN', opciones);
+          
+            fechaElement.textContent = fechaFormateada;
+          </script>
+          <!-- Fecha fin-->
+              <font color="red"> </font>
+              
+                <h4><font color="red">Actividad en clase </font></h4>
+                <video src="img/videos/dibujo casa.mp4" controls width="300" height="300"></video>
+               
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+                    
+                    
+        
+              
+    </div>
+    <!-- fin bloque-->
+        </div>
+        
+        
+            <div class="col-md-12 mb-4">
+                <nav aria-label="Page navigation">
+                  <ul class="pagination justify-content-center mb-0">
+                    <li class="page-item disabled">
+                      <a class="page-link" href="#" aria-label="Previous">
+                        <span aria-hidden="true">&laquo;</span>
+                        <span class="sr-only">Previous</span>
+                      </a>
+                    </li>
+                    <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                    <li class="page-item"><a class="page-link" href="#">2</a></li>
+                    <li class="page-item"><a class="page-link" href="#">3</a></li>
+                    <li class="page-item">
+                      <a class="page-link" href="#" aria-label="Next">
+                        <span aria-hidden="true">&raquo;</span>
+                        <span class="sr-only">Next</span>
+                      </a>
+                    </li>
+                  </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Blog End -->
+
+     <!--Edicion de menu  repetitivo se deja contenido- por el mombre del html-->
+   <div id="contenido-citas"></div>
+    
+   <script>
+       $(document).ready(function() {
+           $("#contenido-citas").load("citas.html");
+       });
+   </script>
+   <!--hasta aca Edicion de menu -->
+
+
+    <!-- Footer Start -->
+    <div class="container-fluid bg-secondary text-white mt-5 py-5 px-sm-3 px-md-5">
+        <div class="row pt-5">
+            
+            <div class="container-fluid pt-5" style="border-top: 1px solid rgba(23, 162, 184, .2);;">
+                <p class="m-0 text-center text-white">
+                    &copy; <a class="text-primary font-weight-bold" href="#">Jose Arberi Contreras</a>. All Rights Reserved. 2025
+                    by
+                    <a class="text-primary font-weight-bold" href="https://www.youtube.com/watch?v=LTp_MNe4Ub0">HTML </a>
+                </p>
+            </div>
+               
+            </div>
+        </div>
+        
+    </div>
+    <!-- Footer End -->
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-primary p-3 back-to-top"><i class="fa fa-angle-double-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/isotope/isotope.pkgd.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
+
+    <!-- Contact Javascript File -->
+    <script src="mail/jqBootstrapValidation.min.js"></script>
+    <script src="mail/contact.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>

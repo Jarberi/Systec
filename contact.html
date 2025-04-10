@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Handlee&family=Nunito&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+
+    <!-- Flaticon Font -->
+    <link href="lib/flaticon/font/flaticon.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+    <meta charset="utf-8">
+    <title>Fechas de las sesiones</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="Free HTML Templates" name="keywords">
+    <meta content="Free HTML Templates" name="description">
+    <script src="sesiones.js"></script>  
+    <!--Edicion de menu -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+       <!--hasta aca Edicion de menu -->
+</head>
+<body>
+    <!--Edicion de menu -->
+    <div id="contenido-menu"></div>
+    
+    <script>
+        $(document).ready(function() {
+            $("#contenido-menu").load("menu.html");
+        });
+    </script>
+    <!--hasta aca Edicion de menu -->
+
+
+
+    <!-- Header Start -->
+   
+    <!-- Header End -->
+
+
+    <!-- Contact Start -->
+    <div class="container-fluid pt-5">
+        <div class="container">
+            <div class="text-center pb-2">
+                <p class="section-title px-5"><span class="px-2">Sessions</span></p>
+                <h1 class="mb-4">Fechas de las Sesiones</h1>
+            </div>
+            <div class="row">
+                <div class="col-lg-7 mb-5">
+                    <div class="contact-form">
+                        <div id="success"></div>
+                      
+                        <h1>Buscador de Sesiones</h1>
+    <label for="periodo">Seleccione un periodo:</label>
+    <select id="periodo" onchange="loadCourses()">
+        <option value="">Seleccione un periodo</option>
+    </select>
+<br>
+    <label for="curso">Seleccione un curso:</label>
+    <select id="curso" onchange="loadSessions()">
+        <option value="">Seleccione un curso</option>
+    </select>
+    <br><br>    
+    <table id="sesiones" border="1">
+        <tr><th>Número de Sesión</th><th>Fecha</th></tr>
+    </table>
+                    </div>
+                </div>
+                <div class="col-lg-5 mb-5">
+                    <p>Este espacio es para verificar la fecha de cada una de las sesiones tomadas en clase.</p>
+                    <div class="d-flex">
+                        <i class="fa fa-map-marker-alt d-inline-flex align-items-center justify-content-center bg-primary text-secondary rounded-circle" style="width: 45px; height: 45px;"></i>
+                        <div class="pl-3">
+                            <h5>Address</h5>
+                            <p>Calle 51 a sur N°78 g 11, Barrio Catalina I.</p>
+                        </div>
+                    </div>
+                    <div class="d-flex">
+                        <i class="fa fa-envelope d-inline-flex align-items-center justify-content-center bg-primary text-secondary rounded-circle" style="width: 45px; height: 45px;"></i>
+                        <div class="pl-3">
+                            <h5>Email</h5>
+                            <p>josecontrerassystemlazarillo@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="d-flex">
+                        <i class="fa fa-phone-alt d-inline-flex align-items-center justify-content-center bg-primary text-secondary rounded-circle" style="width: 45px; height: 45px;"></i>
+                        <div class="pl-3">
+                            <h5>Phone</h5>
+                            <p> 2995443</p>
+                        </div>
+                    </div>
+                    <div class="d-flex">
+                        <i class="far fa-clock d-inline-flex align-items-center justify-content-center bg-primary text-secondary rounded-circle" style="width: 45px; height: 45px;"></i>
+                        <div class="pl-3">
+                            <h5>La pagina SINTEC funciona unicamente en los siguientes horarios: </h5>
+                            <strong>Monday - Friday:</strong>
+                            <p class="m-0">07:00 AM - 14:10 PM </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Contact End -->
+
+
+    <!-- Footer Start -->
+    
+    <!-- Footer End -->
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-primary p-3 back-to-top"><i class="fa fa-angle-double-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/isotope/isotope.pkgd.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
+
+    <!-- Contact Javascript File -->
+    <script src="mail/jqBootstrapValidation.min.js"></script>
+    <script src="mail/contact.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+</html>

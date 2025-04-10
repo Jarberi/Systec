@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <title>home</title>
+    <!--pop up  scrip-->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"> <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script> <script>
+    $(document).ready(function() {
+      $('#miPopUp').modal('show');
+    });
+  </script>
+  <!--hasta aca pop up -->
+    <meta charset="utf-8">
+    <title>Profe Jose Arberi</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="Free HTML Templates" name="keywords">
+    <meta content="Free HTML Templates" name="description">
+
+    <!-- Favicon -->
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Handlee&family=Nunito&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+
+    <!-- Flaticon Font -->
+    <link href="lib/flaticon/font/flaticon.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+
+     <!--Edicion de menu para repetir antes de head-->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+       <!--hasta aca Edicion de menu para repetir antes de head-->
+</head>
+
+<body>
+    <!--Edicion de menu -->
+    <div id="contenido-menu"></div>
+    
+    <script>
+        $(document).ready(function() {
+            $("#contenido-menu").load("menu.html");
+        });
+    </script>
+  
+    <!--hasta aca Edicion de menu -->
+    <!--pop up boby-->
+    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#miPopUp" style="display:none;"> Mostrar Pop-up
+    </button>
+  
+    <div class="modal fade" id="miPopUp" tabindex="-1" aria-labelledby="miPopUpLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+           
+           
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+             
+          </div>
+          <!--hasta aca Edicion de pop up -->
+          <div class="modal-body">
+            
+           Welcome
+           
+            <div class="d-flex bg-light shadow-sm border-top rounded mb-4" style="padding: 30px;">
+                <i class="flaticon-047-backpack h1 font-weight-normal text-primary mb-3"></i>
+                <div class="pl-4">
+                    <h4>News</h4>
+                    <p class="m-0"> *Prohibido salir al baño o traer materiales olvidados dejados en el salòn. <br>
+                       <p>*Estudiante sorprendido con alimentos 10 puntos menos sobre la nota final.</p>
+                       <p>
+                        Final period<br> </b> 
+                        </p>
+                        <video src="img/videos/Efecto domino.mp4" controls width="300" height="300"></video>
+                    </div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <!--hasta aca fin pop up edicion -->
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--fin pop up -->
+    <!-- Header Start -->
+    <div class="container-fluid bg-primary px-0 px-md-5 mb-5">
+        <div class="row align-items-center px-3">
+            <div class="col-lg-6 text-center text-lg-left">
+                <h4 class="text-white mb-4 mt-5 mt-lg-0">Sala de sistemas</h4>
+                <h1 class="display-3 font-weight-bold text-white">Colegio Lazarillo de Tormes</h1>
+                <p class="text-white mb-4">Welcome.</p>
+                <a href="" class="btn btn-secondary mt-1 py-3 px-5">Somos empresarios formados en valores con habilidades en ingles y tecnología</a>
+            </div>
+            <div class="col-lg-6 text-center text-lg-right">
+                <img class="img-fluid mt-5"src="img/header.png" alt="">
+            </div>
+        </div>
+    </div>
+    <!-- Header End -->
+
+
+    <!-- Facilities Start -->
+    <div class="container-fluid pt-5">
+        <div class="container pb-3">
+            <div class="row">
+                <div class="col-lg-4 col-md-6 pb-1">
+                    <div class="d-flex bg-light shadow-sm border-top rounded mb-4" style="padding: 30px;">
+                        <i class="flaticon-050-fence h1 font-weight-normal text-primary mb-3"></i>
+                        <div class="pl-4">
+                            <h4>Robotica</h4>
+                            <p id="partes" class="m-0"> Grados once</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 pb-1">
+                    <div class="d-flex bg-light shadow-sm border-top rounded mb-4" style="padding: 30px;">
+                        <i class="flaticon-022-drum h1 font-weight-normal text-primary mb-3"></i>
+                        <div class="pl-4">
+                            <h4>Electronica</h4>
+                            <p id="partes" class="m-0">Circuitos electronicos</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 pb-1">
+                    <div class="d-flex bg-light shadow-sm border-top rounded mb-4" style="padding: 30px;">
+                        <i class="flaticon-030-crayons h1 font-weight-normal text-primary mb-3"></i>
+                        <div class="pl-4">
+                            <h4>Diseño 3D</h4>
+                            <p id="partes" class="m-0">Tinkercad</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 pb-1">
+                    <div class="d-flex bg-light shadow-sm border-top rounded mb-4" style="padding: 30px;">
+                        <i class="flaticon-017-toy-car h1 font-weight-normal text-primary mb-3"></i>
+                        <div class="pl-4">
+                            <h4>Safe Transportation</h4>
+                            <p class="m-0"> De salon en salon</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 pb-1">
+                    <div class="d-flex bg-light shadow-sm border-top rounded mb-4" style="padding: 30px;">
+                        <i class="flaticon-025-sandwich h1 font-weight-normal text-primary mb-3"></i>
+                        <div class="pl-4">
+                            <h4>Healthy food</h4>
+                            <p class="m-0">No comer chicles en el salon </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 pb-1">
+                    <div class="d-flex bg-light shadow-sm border-top rounded mb-4" style="padding: 30px;">
+                        <i class="flaticon-047-backpack h1 font-weight-normal text-primary mb-3"></i>
+                        <div class="pl-4">
+                            <h4>Educational Tour</h4>
+                            <p class="m-0">Realidad aumentada </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Facilities Start -->
+
+
+    <!-- About Start -->
+    
+    <!-- About End -->
+
+
+    <!-- Class Start -->
+  
+                                   
+                               
+    <!-- Registration End -->
+
+
+    <!-- Team Start -->
+    
+    <!-- Testimonial End -->
+
+
+    <!-- Blog Start -->
+    
+    <!-- Blog End -->
+
+ <!--Edicion de menu  repetitivo se deja contenido- por el mombre del html-->
+ <div id="contenido-citas"></div>
+    
+ <script>
+     $(document).ready(function() {
+         $("#contenido-citas").load("citas.html");
+     });
+ </script>
+ <!--hasta aca Edicion de menu -->
+    <!-- Footer Start -->
+    <div class="container-fluid bg-secondary text-white mt-5 py-5 px-sm-3 px-md-5">
+        <div class="row pt-5">
+            <div class="col-lg-200 col-md-6 mb-5">
+                <a href="" class="navbar-brand font-weight-bold text-primary m-0 mb-4 p-0" style="font-size: 40px; line-height: 40px;">
+                    <i class="flaticon-043-teddy-bear"></i>
+                    <span class="text-white">IA profe sistemas</span>
+                </a>
+                <p>En ¿sabias que? hay una inteligencia que responde tus preguntas.Averigualo y descubre el poder de la inteligencia artificial. </p>
+                <div class="d-flex justify-content-start mt-4">
+                    <a class="btn btn-outline-primary rounded-circle text-center mr-2 px-0"
+                        style="width: 38px; height: 38px;" href="#"><i class="fab fa-twitter"></i></a>
+                    <a class="btn btn-outline-primary rounded-circle text-center mr-2 px-0"
+                        style="width: 38px; height: 38px;" href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a class="btn btn-outline-primary rounded-circle text-center mr-2 px-0"
+                        style="width: 38px; height: 38px;" href="#"><i class="fab fa-linkedin-in"></i></a>
+                    <a class="btn btn-outline-primary rounded-circle text-center mr-2 px-0"
+                        style="width: 38px; height: 38px;" href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+            <div class="col-lg-203 col-md-6 mb-5">
+                <h3 class="text-primary mb-4">Get In Touch</h3>
+                <div class="d-flex">
+                    <h4 class="fa fa-map-marker-alt text-primary"></h4>
+                    <div class="pl-3">
+                        <h5 class="text-white">Calle 51 a sur N°78 g 11, Barrio Catalina I</h5>
+                        <p> Bogota, Colombia</p>
+                    </div>
+                </div>
+                <div class="d-flex">
+                    <h4 class="fa fa-envelope text-primary"></h4>
+                    <div class="pl-3">
+                        <h5 class="text-white">Email</h5>
+                        <p>josecontrerassystemlazarillo@gmail.com</p>
+                    </div>
+                </div>
+                <div class="d-flex">
+                    <h4 class="fa fa-phone-alt text-primary"></h4>
+                    <div class="pl-3">
+                        <h5 class="text-white">Phone</h5>
+                        <p>2995443</p>
+                    </div>
+                </div>
+            </div>
+              <div class="col-lg-3 col-md-6 mb-5">
+            </div>
+        </div>
+        <div class="container-fluid pt-1005" style="border-top: 1px solid rgba(23, 162, 184, .2);;">
+            <p class="m-0 text-center text-white">
+                &copy; <a class="text-primary font-weight-bold" href="#">Jose Arberi Contreras</a>. All Rights Reserved. Designed
+                by
+                <a class="text-primary font-weight-bold" href="https://www.youtube.com/@Arberi/videos">HTML Codex 2025</a>
+            </p>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-primary p-3 back-to-top"><i class="fa fa-angle-double-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/isotope/isotope.pkgd.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
+
+    <!-- Contact Javascript File -->
+    <script src="mail/jqBootstrapValidation.min.js"></script>
+    <script src="mail/contact.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
