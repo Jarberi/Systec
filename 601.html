@@ -116,33 +116,64 @@
             <p class="section-title px-5"><span class="px-2">Actividades</span></p>
             <h1 class="mb-4">Welcome students</h1>
             
-<div class="card-footer bg-transparent py-4 px-5">
+            <div class="card-footer bg-transparent py-4 px-5">
+                       
+                        
+                <div class="card-body bg-light text-center p-4">
+            
+                  <!-- sesion con fecha-->
+                    <h2><p>Sesion 2: </p></h2>
+                    <!-- sesion con fecha-->
+                        
+               <h3><p id="fecha" style="color: red;"></p></h3>
+                        
+               <script>
+                const fechaElement = document.getElementById('fecha');
+                const fechaActual = new Date();
+              
+                const opciones = {
+                  weekday: 'long', // Agrega el día de la semana completo
+                  year: 'numeric',
+                  month: 'long',
+                  day: 'numeric'
+                };
+              
+                const fechaFormateada = fechaActual.toLocaleDateString('en-EN', opciones);
+              
+                fechaElement.textContent = fechaFormateada;
+              </script>
+                   <!-- sesion con fecha-->
+                        
+                            
+            
+            
+                            
+                            <h4><font color="red">Actividad en clase </font></h4>
+                            
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/vCgqPUt_sQU?si=HjzCu43rbsFCzuMM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>      
+                            
+                            
+                            <p>1.Consultar y resumir en el cuaderno la importancia de una introducción en documentos.  </p>
+                            <p>2.Abrir un el documento con hoja de presentación de la clase pasada</p>
+                            <p>2. Realizar una hoja de introducción sobre bullying y hábitos correctos de la tecnología</p>
+                            <p>3.Mecanet</p>
+                            <p>4.Evaluacion ojos vendados. </p>
+
+                             
+                           
+                           
+            </div>
+            
+            
+              <!-- bloque-->
+            <div class="card-footer bg-transparent py-4 px-5">
                        
                         
     <div class="card-body bg-light text-center p-4">
 
       <!-- sesion con fecha-->
         <h2><p>Sesion 1: </p></h2>
-        <!-- sesion con fecha-->
-            
-   <h3><p id="fecha" style="color: red;"></p></h3>
-            
-   <script>
-    const fechaElement = document.getElementById('fecha');
-    const fechaActual = new Date();
-  
-    const opciones = {
-      weekday: 'long', // Agrega el día de la semana completo
-      year: 'numeric',
-      month: 'long',
-      day: 'numeric'
-    };
-  
-    const fechaFormateada = fechaActual.toLocaleDateString('en-EN', opciones);
-  
-    fechaElement.textContent = fechaFormateada;
-  </script>
-       <!-- sesion con fecha-->
+        
             
                 
 
