@@ -76,30 +76,57 @@
             <p class="section-title px-5"><span class="px-2">Actividades</span></p>
             <h1 class="mb-4">Welcome students</h1>
 
+
+            
+            <div class="card-footer bg-transparent py-4 px-5">
+                       
+                        
+        <div class="card-body bg-light text-center p-4">
+
+          <!-- sesion con fecha-->
+            <h2><p>Sesión 6: </p></h2>
+             <!-- sesion con fecha-->
+            
+   <h3><p id="fecha" style="color: red;"></p></h3>
+            
+   <script>
+    const fechaElement = document.getElementById('fecha');
+    const fechaActual = new Date();
+  
+    const opciones = {
+      weekday: 'long', // Agrega el día de la semana completo
+      year: 'numeric',
+      month: 'long',
+      day: 'numeric'
+    };
+  
+    const fechaFormateada = fechaActual.toLocaleDateString('en-EN', opciones);
+  
+    fechaElement.textContent = fechaFormateada;
+  </script>
+       <!-- sesion con fecha-->
+            
+                <h4><font color="red"> Digitación</font></h4>
+              
+                <h4><font color="red">Actividad en clase </font></h4>
+                 <p style="text-align: left;">1.Escribir los pasos para encender y apagar un computador.</p>
+                   <p style="text-align: left;">2.Dibujar el logo de encender on/off bien grande en una pagina.</p>   
+                           
+                    
+                <p style="text-align: left;">3.Mecanet</p>
+                 <p style="text-align: left;">4.Ojos vendados</p>
+                 <p style="text-align: left;">5.Mecanet si piede</p>
+                   <p>ברוך השם</p>
+                   
+              
+    </div>
+        </div>
             <!-- bloque-->
              <div class="d-flex flex-column align-items-center justify-content-center" style="min-height: 400px">
                 <div class="card-footer bg-transparent py-4 px-5">
                     <div class="card-body bg-light text-center p-4">
                         <iframe width="560" height="315" src="https://www.youtube.com/embed/3XA0bB79oGc?si=u71PE27AoZ8NJc27" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                        <!-- Fecha inicio -->
-         
-          <h4><font color="red"> <p id="fecha"></p> </font></h4>
-          <script>
-            const fechaElement = document.getElementById('fecha');
-            const fechaActual = new Date();
-          
-            const opciones = {
-              weekday: 'long', // Agrega el día de la semana completo
-              year: 'numeric',
-              month: 'long',
-              day: 'numeric'
-            };
-          
-            const fechaFormateada = fechaActual.toLocaleDateString('en-EN', opciones);
-          
-            fechaElement.textContent = fechaFormateada;
-          </script>
-          <!-- Fecha fin-->
+                        
                         
                     
                      
